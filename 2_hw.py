@@ -5,11 +5,7 @@ def task_1() -> None:
     d: list = [1, 2, 3]
     e: bool = True
 
-    print(type(a))
-    print(type(b))
-    print(type(c))
-    print(type(d))
-    print(type(e))
+    print(type(a)), print(type(b)), print(type(c)), print(type(d)), print(type(e))
     
 task_1()
 
@@ -18,7 +14,7 @@ def task_2() -> None:
     print(a[:3])
 
 task_2()
-//последовательность фибоначчи
+#*последовательность фибоначчи
 
 def task_3(num: int) -> int:
     return num ** 2
