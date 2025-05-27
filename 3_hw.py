@@ -19,7 +19,7 @@ def season(month):
     elif month in [9, 10, 11]:
         print("осень")
     else:
-        print("Некорректный номер месяца")
+        print("введите корректный номер месяца")
 
 
 def check_numbers(a, b, c):
